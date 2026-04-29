@@ -5,6 +5,7 @@ abstract class AppStrings {
   static const String contact = "Contact";
   static const String about = "About";
   static const String project = "Projects";
+  static const String location = "Location";
 
   static const String facebook="Facebook";
   static const String whatsApp="WhatsApp";

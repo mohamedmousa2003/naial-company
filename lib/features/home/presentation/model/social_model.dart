@@ -17,7 +17,7 @@ final List<SocialModel> socialList = [
   ),
   SocialModel(
     title: AppStrings.facebook,
-    url: "https://www.facebook.com/mohamedmousa11520031",
+    url: "https://www.facebook.com/share/14aHN5v9yXp/?mibextid=wwXIfr",
     icon: AppAssets.facebook,
   ),
   SocialModel(

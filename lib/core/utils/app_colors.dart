@@ -22,4 +22,19 @@ abstract class AppColors {
 
   static const success = Color(0xff11CE19);
   static const lightGreen = Color(0xffCAF9CC);
+
+  static const bg          = Color(0xFFF5F6FA);
+  static const white       = Color(0xFFFFFFFF);
+  static const accent      = Color(0xFF1A56DB);
+  static const accentLight = Color(0xFFE8EFFD);
+  static const accentMid   = Color(0xFFB6CEFB);
+  static const border      = Color(0xFFE2E8F0);
+  static const red         = Color(0xFFDC2626);
+  static const redSoft     = Color(0xFFFEF2F2);
+  static const amber       = Color(0xFFD97706);
+  static const amberSoft   = Color(0xFFFFFBEB);
+  static const text1       = Color(0xFF0F172A);
+  static const text2       = Color(0xFF475569);
+  static const text3       = Color(0xFF94A3B8);
+  static const divider     = Color(0xFFEEF2F7);
 }
