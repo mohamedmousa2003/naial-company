@@ -5,10 +5,11 @@ import 'config/di/di.dart';
 import 'core/helpers/custom_bloc_observer.dart';
 import 'core/theme/app_theme.dart';
 import 'features/home/presentation/view/home_screen.dart';
-
+import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   configureDependencies();
+  setUrlStrategy(PathUrlStrategy());
   Bloc.observer = CustomBlocObserver();
   runApp(const MyApp());
 }
